@@ -1,5 +1,5 @@
 #REf: https://codebeautify.org/string-hex-converter
-hex1 = "e23e2be31e2ae1ce48e32e19"
+hex1 = ""
 ll = []
 counter = 0
 h1 = "\\x{0"
@@ -17,20 +17,6 @@ for x in hex1:
     else:
         msg = msg+x
         counter += 1
-    # if x == 'e':
-    #     temp = temp+x
-    #
-    # else:
-    #     temp = temp+x
-    # if counter != 3:
-    #     temp = temp+x
-    #     counter += 1
-    #
-    # elif counter == 3:
-    #     counter = 0
-    #     temp = temp + '}\\s*'
-    #     ll.append(temp)
-    #     temp = "\\x{0"+x
+        
 for y in ll:
     print(y, end="")
-# print(ll)
